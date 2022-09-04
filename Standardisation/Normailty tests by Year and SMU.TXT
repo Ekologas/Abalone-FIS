@@ -1,0 +1,9147 @@
+[1] "PPB"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98633, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9845, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98593, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.97979, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.97867, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98139, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98862, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98356, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98957, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98707, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98732, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98496, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99562, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99504, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99678, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98593, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99252, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99747, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99917, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99476, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99972, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99765, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99914, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99604, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99957, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99968, p-value = 1.665e-15
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99956, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.97547, p-value = 5.551e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99942, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9992, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99468, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99909, p-value = 0.001813
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99028, p-value = 1.688e-14
+alternative hypothesis: two-sided
+
+[1] "PHILLIP ISLAND"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98935, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98588, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99259, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99666, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99808, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99709, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99202, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9924, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99662, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99954, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99878, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99938, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99936, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99259, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99582, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99352, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99668, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99545, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99389, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99979, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99956, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99975, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99365, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99191, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99907, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99844, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99793, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99352, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99805, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99881, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99708, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98924, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99625, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98708, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99934, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99679, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9979, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "CAPE OTWAY"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9741, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99331, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99199, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99352, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99439, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99662, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99411, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99711, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99949, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99947, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99278, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99574, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99584, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99088, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99819, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99139, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99637, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99951, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99969, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9992, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99694, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99606, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99944, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99794, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99817, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99685, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99828, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99901, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99824, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99666, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99714, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98304, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99821, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "PPHeads MP"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98877, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.96246, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98935, p-value = 1.773e-11
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99761, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99352, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99747, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.986, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9977, p-value = 3.309e-08
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.999, p-value = 1.989e-06
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99808, p-value = 1.424e-08
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99986, p-value = 3.676e-08
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99984, p-value = 5.169e-08
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99838, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.95938, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value = 5.572e-10
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value = 2.125e-05
+alternative hypothesis: two-sided
+
+[1] "SHIPWRECK COAST"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.97573, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.986, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99409, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99584, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99484, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98953, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99851, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99783, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.94785, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99926, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99944, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99973, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98826, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99867, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99739, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99918, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99976, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99959, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value = 9.992e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value = 1.998e-15
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99988, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99988, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98782, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.88888, p-value = 5.164e-09
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99423, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99942, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99937, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Twelve Apostles MP"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98549, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98958, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98967, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99584, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99484, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9925, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99313, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99711, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99949, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98936, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99964, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99944, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99967, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99948, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99952, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98715, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99964, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99927, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value = 4.441e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value = 7.772e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value = 6.661e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value = 0.000222
+alternative hypothesis: two-sided
+
+[1] "Point Cook MP"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98935, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98981, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99562, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98003, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.97937, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.97025, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99024, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.97632, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99662, p-value = 5.551e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99352, p-value = 1.029e-10
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98916, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9924, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99677, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99775, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99916, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99892, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98821, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98814, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99903, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99662, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99985, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99584, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99962, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Marlo"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99934, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99612, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99912, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99883, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99824, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99896, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99829, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99808, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99894, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99952, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99986, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99978, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98853, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99988, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99978, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99919, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99662, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99986, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99992, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99653, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99984, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Point Hicks Marine Park"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99934, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99933, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99955, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99974, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99961, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99973, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99988, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99838, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99979, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99986, p-value = 1.665e-15
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99978, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Mallacoota West"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99934, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99897, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99905, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99962, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99961, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99703, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99668, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99838, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99979, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99952, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99851, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99973, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99984, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99548, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99988, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99984, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99936, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99584, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99722, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99971, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99875, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99977, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99967, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99921, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Mallacoota Large"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99621, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99824, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99903, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99921, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99941, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99604, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9953, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99978, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99854, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99988, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99971, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99974, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99951, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.97178, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99945, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99936, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99988, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99942, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99986, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99915, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99977, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99984, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99793, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Mallacoota Central"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99518, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9947, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99759, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9968, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9979, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99936, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99411, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99592, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99978, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99977, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99957, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99977, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98604, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99984, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99407, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99979, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99555, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99969, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99977, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99985, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99986, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99985, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Mallacoota East"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99503, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98838, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99411, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99352, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99808, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99703, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99918, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99948, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99624, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9992, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99221, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99368, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99539, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99593, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99978, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99814, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99946, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99986, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99928, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99838, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99976, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99988, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99964, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99979, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99104, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99986, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99985, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99644, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Port Fairy"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99838, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99157, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99304, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99498, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99906, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99451, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99582, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99914, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99613, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99962, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99949, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99844, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99739, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9973, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99763, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9918, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98592, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.96071, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99883, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99936, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98801, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98032, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98121, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99221, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99261, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99294, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99675, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.95878, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.95645, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98915, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98483, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99868, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9961, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99165, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9984, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98573, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Portland"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99047, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98726, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99319, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99551, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99735, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99808, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99801, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99341, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99808, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99605, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99452, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99883, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99151, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99184, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99166, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99401, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99357, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99077, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99566, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99367, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99464, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99849, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99916, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9865, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99885, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99461, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98886, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.94266, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98552, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98801, p-value = 6.661e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.92391, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98002, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98935, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98849, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98159, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99773, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99133, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Marine Park"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99913, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99926, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99974, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99755, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98301, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99337, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99985, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99936, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99761, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value = 1.332e-15
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9992, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99725, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99951, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99851, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.95343, p-value = 6.661e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99978, p-value = 6.661e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value = 6.661e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99986, p-value = 7.772e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98177, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9992, p-value = 5.551e-16
+alternative hypothesis: two-sided
+
+[1] "BACK BEACHES"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99313, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98959, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99489, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99539, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99747, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99666, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.992, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99423, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99957, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99936, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99616, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99272, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99869, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99722, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99886, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99855, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99947, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99968, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99654, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99963, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99979, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99676, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99345, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99535, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99979, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99943, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99939, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99749, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99909, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99909, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "FLINDERS"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99509, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9935, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98747, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99469, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99322, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99227, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99444, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99662, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99883, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99936, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99847, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99787, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99321, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99879, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99525, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9977, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99116, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99404, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99852, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99528, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99538, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99899, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99731, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99848, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9974, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99893, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99855, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9964, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99893, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99199, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99706, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99872, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99861, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99293, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99906, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99846, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Julia Percy Island"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99595, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99939, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99956, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99949, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99957, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99937, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99985, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99992, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99931, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99968, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.92143, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99988, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99895, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98024, p-value = 6.661e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99971, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99992, p-value = 5.551e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99986, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99938, p-value = 6.661e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99856, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99808, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98543, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98429, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9984, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99102, p-value = 4.485e-14
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99888, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "SURFCOAST"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99225, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9797, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99133, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9968, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99662, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99423, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99919, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99979, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99974, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99662, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99352, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99176, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99892, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99851, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99838, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99916, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99938, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99811, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99992, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99958, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9996, p-value = 2.598e-14
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.97581, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99887, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value = 4.165e-12
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value = 1.255e-14
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99225, p-value = 7.224e-09
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.986, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99733, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99602, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 1, p-value = 5.231e-06
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Point Addis MP"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99747, p-value = 8.523e-11
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98121, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99176, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99926, p-value = 4.441e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value = 0.03665
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value = 0.03665
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value = 0.0006712
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value = 0.000671
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99176, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99914, p-value = 0.03688
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99992, p-value = 1.231e-05
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 1, p-value = 7.116e-07
+alternative hypothesis: two-sided
+
+[1] "KILCUNDA"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98748, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98887, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98782, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99638, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99808, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99662, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.95476, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99783, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99978, p-value = 2.565e-14
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99918, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99977, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99975, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99936, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99694, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99967, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99638, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99985, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value = 7.772e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99978, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value = 6.661e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value = 8.882e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99842, p-value = 1.665e-15
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.96742, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99979, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99957, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99935, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99964, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99973, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Airport"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9965, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9949, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99382, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99489, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99808, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99703, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99957, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99944, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99745, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99867, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99513, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99625, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99637, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9962, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99651, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99846, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99818, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99713, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99871, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99928, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99534, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99972, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99662, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99976, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99948, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99986, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99846, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99957, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99749, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99961, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99852, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Warrnambool"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99897, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99913, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99914, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99962, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99755, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98142, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99337, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99794, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99761, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99679, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99946, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99725, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9975, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99773, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.96404, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99967, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99165, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99978, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9804, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.97966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99755, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99219, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99879, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99286, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99143, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99338, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99703, p-value = 4.441e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99895, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99335, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99431, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99956, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "CAPE LIPTRAP"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.97055, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99711, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99352, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99662, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98973, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9977, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99662, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99722, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99975, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99975, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99937, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99919, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99838, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99961, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99992, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99992, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value = 7.772e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value = 6.661e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9992, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value = 6.661e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.97274, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value = 6.661e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99971, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] "Prom MP"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99977, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99927, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98277, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99469, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99892, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99744, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99888, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99895, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99961, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99465, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99971, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99916, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99914, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99309, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99918, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99934, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99976, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99865, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99969, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99933, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 1, p-value = 3.469e-06
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value = 2.107e-05
+alternative hypothesis: two-sided
+
+[1] "PROM EASTSIDE"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99977, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99948, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98277, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99469, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99423, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99744, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99963, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99245, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99465, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99971, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99916, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99914, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99309, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99918, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99976, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99301, p-value = 5.551e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99914, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99955, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99813, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99945, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99901, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99728, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value = 4.441e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99978, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99977, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99925, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99974, p-value = 1.221e-15
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99963, p-value = 5.551e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99722, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99945, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "CLIFFY GROUP"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99977, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99948, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98277, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99469, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99984, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99744, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99986, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99465, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99971, p-value = 4.441e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99916, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99914, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99309, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99918, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99976, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value = 6.661e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99883, p-value = 4.441e-15
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value = 4.441e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99984, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99985, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99936, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99969, p-value = 5.551e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value = 1.221e-15
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "PROM WESTSIDE"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99933, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99731, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99966, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99176, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99813, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98767, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99988, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99917, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99898, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99975, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99971, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99949, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99985, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99118, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99992, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99935, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99694, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99984, p-value = 6.661e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99872, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99988, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99949, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99958, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9977, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99951, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99747, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99959, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99789, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99201, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9982, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99805, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99827, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99915, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Bunurong MP"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99506, p-value = 2.898e-14
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99176, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9927, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99722, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99912, p-value = 1.36e-09
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99824, p-value = 0.003525
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99783, p-value = 4.418e-11
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value = 2.222e-05
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value = 5.884e-15
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value = 4.486e-05
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99694, p-value = 1.878e-05
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99967, p-value = 0.0006574
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value = 4.282e-05
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value = 5.841e-10
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 1, p-value = 1.046e-06
+alternative hypothesis: two-sided
+
+[1] "MushroomReef MP"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99908, p-value = 4.441e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99883, p-value = 2.731e-14
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99967, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99911, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99874, p-value = 5.551e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99883, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99923, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99963, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99955, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99321, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99948, p-value = 1.665e-15
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99985, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99968, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.96091, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99175, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98232, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Mallacoota Small"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99911, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99819, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99817, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99489, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99694, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99783, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99944, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99985, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99662, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99899, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99979, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99821, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99038, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99972, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99971, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99984, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99722, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99976, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99074, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99984, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99881, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99926, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99863, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2005
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98935, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2006
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99584, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2007
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99872, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2008
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99986, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2009
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.98688, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2010
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.97956, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2011
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99993, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2012
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value = 1.332e-15
+alternative hypothesis: two-sided
+
+[1] 2013
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2015
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value = 1.887e-15
+alternative hypothesis: two-sided
+
+[1] 2016
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99977, p-value = 1.665e-15
+alternative hypothesis: two-sided
+
+[1] 2017
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99988, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] "Cape Howe Marine Park"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99866, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9997, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99992, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value = 3.442e-15
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99992, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99976, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99936, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99961, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9998, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99989, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 1, p-value = 9.133e-06
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 1, p-value = 9.388e-06
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value = 4.293e-10
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99983, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 1, p-value = 1.689e-06
+alternative hypothesis: two-sided
+
+[1] 2014
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 1, p-value = 4.441e-16
+alternative hypothesis: two-sided
+
+[1] "Beware Reef Marine Park"
+[1] 1979
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99988, p-value = 1.028e-11
+alternative hypothesis: two-sided
+
+[1] 1980
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99964, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1983
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value = 4.441e-16
+alternative hypothesis: two-sided
+
+[1] 1984
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9999, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99985, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99982, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1989
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99972, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 1990
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99991, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1991
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99994, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1992
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value = 1.121e-14
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99996, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 1995
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1996
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1997
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1998
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value = 2.22e-16
+alternative hypothesis: two-sided
+
+[1] 1999
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2000
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 1, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99997, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 2002
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99999, p-value = 3.331e-16
+alternative hypothesis: two-sided
+
+[1] 2004
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 1, p-value = 3.146e-12
+alternative hypothesis: two-sided
+
+[1] "North Tip Of Hogan Island Group"
+[1] 1981
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99947, p-value = 4.211e-09
+alternative hypothesis: two-sided
+
+[1] 1982
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.9979, p-value = 1.556e-12
+alternative hypothesis: two-sided
+
+[1] 1985
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99987, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1986
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99995, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 1987
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99998, p-value = 3.439e-05
+alternative hypothesis: two-sided
+
+[1] 1988
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99981, p-value = 0.0003751
+alternative hypothesis: two-sided
+
+[1] 1993
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99965, p-value = 0.0006989
+alternative hypothesis: two-sided
+
+[1] 1994
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99309, p-value = 0.01382
+alternative hypothesis: two-sided
+
+[1] 2001
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 0.99978, p-value < 2.2e-16
+alternative hypothesis: two-sided
+
+[1] 2003
+
+	One-sample Kolmogorov-Smirnov test
+
+data:  log(temp2$CPUE)
+D = 1, p-value = 3.256e-06
+alternative hypothesis: two-sided
+

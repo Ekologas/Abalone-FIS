@@ -1,0 +1,187 @@
+---
+title: Catch per Unit Effort Candidate Outliers
+output:
+  html_document:
+    toc: yes
+    toc_depth: 2
+    theme: yeti
+    highlight: zenburn
+    fig_caption: true
+  word_document:
+    toc: yes
+    toc_depth: 2
+    highlight: "zenburn"
+    fig_caption: true
+params:
+  smu: NA
+  input_data: NA
+---
+
+<!-- Time-stamp: <2018-03-25 14:31:00 (slane)> -->
+
+```{r setup,echo=FALSE,warning=FALSE,message=FALSE,cache=FALSE,results="hide"}
+knitr::opts_chunk$set(cache = FALSE, error = FALSE, warning = FALSE,
+                      message = FALSE, echo = FALSE, width = 7,
+                      height = 14 / (1 + sqrt(5)), out.width = "900px",
+                      fig.asp = 2 / (1 + sqrt(5)))
+options(digits = 2)
+
+```
+
+# Candidate Outlier Report for `r params$smu`
+
+```{r libraries}
+library(metafor)
+library(dplyr)
+library(readxl)
+
+```
+
+```{r load-and-filter}
+cpue <- read_excel(params$input_data)
+max_year <- max(cpue$QuotaYear)
+cpue <- cpue %>%
+    filter(SMU == params$smu, QuotaYear == max_year)
+
+```
+
+## Data Summary
+
+`r params$smu` has `r nrow(cpue)` catch records for `r length(unique(cpue$Diver))` divers during the `r max_year` season.
+
+```{r zero-effort}
+zero_effort <- cpue %>%
+    filter(is.na(Effort) | Effort == 0)
+nr <- nrow(zero_effort)
+cpue <- cpue %>%
+    filter(!is.na(Effort), Effort > 0)
+
+```
+
+```{asis zero-effort-text,echo=nr}
+Some divers have recorded 0 effort, or are missing their effort values. These records have been removed from any further analysis. These records are shown in the table below:
+```
+
+```{r zero-effort-table,eval=nr,results="asis"}
+knitr::kable(zero_effort)
+
+```
+
+```{r cpue-summary}
+cpue_summary <- cpue %>%
+    mutate(cpue = (Blacklip + Greenlip) / Effort) %>%
+    group_by(Diver) %>%
+    summarise(
+        cpue_mean = mean(cpue, na.rm = TRUE),
+        cpue_sd = sd(cpue, na.rm = TRUE),
+        cpue_n = n()) %>%
+    ungroup()
+any_1 <- cpue_summary %>%
+    filter(cpue_n == 1) %>%
+    left_join(., cpue, by = "Diver") %>%
+    select(-cpue_mean, -cpue_sd)
+cpue_summary <- cpue_summary %>%
+    filter(cpue_n > 1)
+nr_any_1 <- nrow(any_1)
+
+```
+
+```{asis any-1,echo=nr_any_1}
+Some divers have recorded only one dive. For the purposes of identify candidate outliers, these divers will be removed from any further analysis. These divers are shown in the table below:
+```
+
+```{r any-1-table,eval=nr_any_1,results="asis"}
+knitr::kable(any_1)
+
+```
+
+## Candidate Outliers
+
+The forest plot identifying candidate outlier divers is shown below. Candidate outliers at the 95% level are shown in <span style="color:lightblue">light blue</span>, whilst outliers at the 99% level are shown in <span style="color:darkblue">dark blue</span>.
+
+```{r funnel-plot}
+calcs <- escalc(mi = cpue_mean, sdi = cpue_sd, ni = cpue_n,
+                data = cpue_summary, measure = "MN")
+model <- rma(calcs)
+calcs <- calcs %>%
+    mutate(
+        mu = as.numeric(model$beta),
+        sei = sqrt(vi),
+        bound1 = ifelse(cpue_mean < mu, mu + qnorm(0.025) * sei,
+                        mu - qnorm(0.025) * sei),
+        bound2 = ifelse(cpue_mean < mu, mu + qnorm(0.005) * sei,
+                        mu - qnorm(0.005) * sei),
+        out_level = case_when(
+            cpue_mean < mu & cpue_mean > bound1 ~ 0,
+            cpue_mean < mu & cpue_mean < bound1 & cpue_mean > bound2 ~ 95,
+            cpue_mean < mu & cpue_mean < bound2 ~ 99,
+            cpue_mean > mu & cpue_mean < bound1 ~ 0,
+            cpue_mean > mu & cpue_mean > bound1 & cpue_mean < bound2 ~ 95,
+            cpue_mean > mu & cpue_mean > bound2 ~ 99),
+        out_colour = case_when(
+            out_level == 0 ~ "black",
+            out_level == 95 ~ "lightblue",
+            out_level == 99 ~ "darkblue")
+    )
+txt <- paste0("Funnel plot for ", params$smu, " of mean CPUE per diver")
+funnel(model, ylab = "Standard error", main = txt,
+       level = c(0.95, 0.99))
+points(calcs$cpue_mean, calcs$sei, col = calcs$out_colour, pch = 16)
+
+```
+
+### Candidate Outliers, 95%
+
+```{r tab-95}
+tab95 <- calcs %>%
+    filter(out_level == 95) %>%
+    select(Diver, `Mean CPUE` = cpue_mean,
+           `Standard Deviation CPUE` = cpue_sd)
+tab95_n <- (nrow(tab95) == 0)
+tab95_y <- 1 - tab95_n
+
+```
+
+```{asis outlier-95-none,echo=tab95_n}
+No divers are classified as candidate outliers at the 95% level.
+```
+
+```{asis outlier-95-some,echo=tab95_y}
+The following divers are classified as candidate outliers at the 95% level:
+```
+
+```{r outlier-95-table,eval=tab95_y,results="asis"}
+knitr::kable(tab95)
+
+```
+
+### Candidate Outliers, 99%
+
+```{r tab-99}
+tab99 <- calcs %>%
+    filter(out_level == 99) %>%
+    select(Diver, `Mean CPUE` = cpue_mean,
+           `Standard Deviation CPUE` = cpue_sd)
+tab99_n <- (nrow(tab99) == 0)
+tab99_y <- 1 - tab99_n
+
+```
+
+```{asis outlier-99-none,echo=tab99_n}
+No divers are classified as candidate outliers at the 99% level.
+```
+
+```{asis outlier-99-some,echo=tab99_y}
+The following divers are classified as candidate outliers at the 99% level:
+```
+
+```{r outlier-99-table,eval=tab99_y,results="asis"}
+knitr::kable(tab99)
+
+```
+
+<p>
+  <br><br><br>
+	This report template was produced for the Victorian Fisheries Authority by [interadata](https://www.interadata.io/).
+  <br><br>
+</p>
