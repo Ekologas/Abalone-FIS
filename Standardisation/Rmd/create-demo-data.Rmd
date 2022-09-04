@@ -1,0 +1,172 @@
+---
+title: Create Demonstration Data for `harvestStrategy`
+author:
+- Stephen E. Lane
+- interadata
+---
+
+<!-- Time-stamp: <2018-03-03 11:28:24 (slane)> -->
+
+```{r setup,echo=FALSE,warning=FALSE,message=FALSE,cache=FALSE,results="hide"}
+knitr::opts_chunk$set(cache = FALSE, error = FALSE, warning = FALSE,
+                      message = FALSE, echo = TRUE)
+options(digits = 2)
+
+```
+
+# CPUE example data
+
+This script creates data for use in the `harvestStrategy` package. It reads in the actual data, subsets it to make it smaller, then masks the spatial management units for confidentiality.
+
+We need these packages:
+
+```{r libraries}
+library(dplyr)
+library(readxl)
+library(readr)
+library(assertthat)
+
+```
+
+First, read in the data, and check it came in correctly:
+
+```{r read-in}
+cpue <-
+    read_excel("../data-raw/HS_DRAFT_180131_Data for reference points_AWG.xlsx",
+               sheet = "CPUE data")
+assert_that(ncol(cpue) == 3)
+assert_that(nrow(cpue) == 874)
+glimpse(cpue)
+
+```
+
+Choose five (5) SMU at random to keep:
+
+```{r select-smu}
+smu <- unique(cpue$SMU)
+set.seed(42)
+smu_select <- sample(smu, 5)
+cpue <- cpue %>%
+    filter(SMU %in% smu_select)
+
+```
+
+Restrict to latest ten year data:
+
+```{r restrict-time}
+cpue <- cpue %>%
+    group_by(SMU) %>%
+    slice((n() - 9):n())
+
+```
+
+Mask the SMU:
+
+```{r mask-smu}
+mask_smu <- data_frame(SMU = smu_select) %>%
+    mutate(smu = letters[1:5])
+cpue <- left_join(cpue, mask_smu, by = "SMU") %>%
+    ungroup() %>%
+    select(SMU = smu, Year, CPUE = Nom_CPUE_79_16) %>%
+    arrange(SMU, Year)
+
+```
+
+Save out for use in the `harvestStrategy` package:
+
+```{r save}
+save(cpue, file = "../data/cpue.RData")
+
+```
+
+# Decision matrix example data
+
+We now create an example decision matrix dataset for use in the `harvestStrategy` package. Firstly, create a data frame with all combinations of `Decreasing`, `Stable`, and `Increasing` for primary and secondary categories. Then create the decision rules for comparing primary and secondary, then the compound primary/secondary to tertiary:
+
+```{r decisions}
+decisions <- expand.grid(
+    primary_category = c("Decreasing", "Stable", "Increasing"),
+    secondary_category = c("Decreasing", "Stable", "Increasing"),
+    stringsAsFactors = FALSE) %>%
+    as_data_frame()
+prim_sec <- decisions %>%
+    mutate(
+        decision = c("Decreasing", "Decreasing", "Stable",
+                     "Decreasing", "Stable", "Increasing",
+                     "Decreasing", "Stable", "Increasing")
+    )
+compound_tertiary <- decisions %>%
+    mutate(
+        decision = c("Decreasing", "Stable", "Stable",
+                     "Decreasing", "Stable", "Increasing",
+                     "Stable", "Stable", "Increasing")
+    ) %>%
+    rename(compound_category = primary_category,
+           tertiary_category = secondary_category)
+save(prim_sec, file = "../data/prim_sec.RData")
+save(compound_tertiary, file = "../data/compound_tertiary.RData")
+
+```
+
+# CPUE reference ranges for catch control strategy
+
+Reference ranges are used to set the catch control strategy for the fishery, which are unique for each spatial management unit. These are given in the word document, and have also been saved as a csv. Here we import them, match them to the SMUs selected above, and output for the package as reference.
+
+```{r read-cpue-reference}
+cpue_ref <- read_csv("../data-raw/cpue-reference-points.csv")
+assert_that(ncol(cpue_ref) == 4)
+assert_that(nrow(cpue_ref) == 23)
+glimpse(cpue_ref)
+
+```
+
+All looks good, so let's select out the required SMU's and export for `harvestStrategy`:
+
+```{r export-cpue-ref}
+cpue_ref <- left_join(
+    cpue_ref,
+    mask_smu,
+    by = "SMU") %>%
+    filter(!is.na(smu)) %>%
+    arrange(smu) %>%
+    select(SMU = smu, Limit, Threshold, Target)
+save(cpue_ref, file = "../data/cpue_ref.RData")
+
+```
+
+# Make up some historical catch control rules/thresholds
+
+We need to make some green/yellow/red historical thresholds so that new targets can be set. We'll load in the `harvestStrategy` package, and do this:
+
+```{r create-thresholds}
+library(harvestStrategy)
+cpue_thresh <- left_join(cpue, cpue_ref, by = "SMU") %>%
+    mutate(
+        thresh = case_when(
+            CPUE <= Limit ~ "Red",
+            CPUE > Threshold ~ "Green",
+            TRUE ~ "Yellow"
+        )
+    ) %>%
+    select(SMU, Year, thresh)
+save(cpue_thresh, file = "../data/cpue_thresh.RData")
+
+```
+
+We'll also need to make up some 2017 data, to demonstrate how to set the appropriate catch control strategy:
+
+```{r new-cpue}
+cpue_2017 <- data_frame(
+    SMU = letters[1:5],
+    Year = rep(2017, 5),
+    CPUE = c(45, 60, 68, 90, 85)
+)
+save(cpue_2017, file = "../data/cpue_2017.RData")
+
+```
+
+<p>
+  <br><br><br>
+  All views presented within are the author's only, and do not necessarily represent the views of CEBRA.
+  <br><br>
+</p>

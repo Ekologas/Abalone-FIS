@@ -1,0 +1,210 @@
+---
+title: Catch per Unit Effort Standardisation
+output:
+  html_document:
+    toc: yes
+    toc_depth: 2
+    theme: yeti
+    highlight: zenburn
+    fig_caption: true
+    includes:
+      after_body: math-config.html
+  word_document:
+    toc: yes
+    toc_depth: 2
+    highlight: "zenburn"
+    fig_caption: true
+params:
+  smu: NA
+  input_data: NA
+  min_year: NA
+  max_year: NA
+---
+
+<!-- Time-stamp: <2018-04-07 11:21:44 (slane)> -->
+
+```{r setup,echo=FALSE,warning=FALSE,message=FALSE,cache=FALSE,results="hide"}
+knitr::opts_chunk$set(cache = FALSE, error = FALSE, warning = FALSE,
+                      message = FALSE, echo = FALSE, width = 7,
+                      height = 14 / (1 + sqrt(5)), out.width = "900px",
+                      fig.asp = 2 / (1 + sqrt(5)))
+options(digits = 2)
+
+```
+
+# Catch per Unit Effort Standardisation Report for `r params$smu`
+
+This report provides details on the modelling performed for the `r params$smu` spatial management unit, catch per unit effort (CPUE) data. A series of three models were fit to the raw CPUE data at the level of the year/diver/reef aggregation.
+
+This report is structured to provide an overview of the data used in the modelling, a brief description of the models used, comparison of the models, and results of the standardisation.
+
+```{r libraries-functions}
+library(here)
+library(dplyr)
+library(ggplot2)
+library(forcats)
+source(here("R", "createStanData.R"))
+
+```
+
+## Data Summary
+
+```{r load-and-filter}
+divers <- params$input_data %>%
+    filter(SMU == params$smu, QuotaYear >= params$min_year,
+           QuotaYear <= params$max_year, !is.na(Effort), Effort > 0)
+divers_seasonal <- divers %>%
+    mutate(
+        volume = Blacklip + Greenlip,
+        cpue = volume / Effort,
+        Month = (lubridate::month(Date) - 3 + 12) %% 12,
+        Month = ifelse(Month == 0, 12, Month)
+    ) %>%
+    group_by(ReefCode, QuotaYear, Month) %>%
+    summarise(mean_cpue = exp(mean(log(cpue))))
+nreef <- length(unique(divers[['ReefCode']]))
+pl_size1 <- ceiling(nreef / 3) * 9
+pl_size2 <- paste0(ceiling(nreef / 3) * 900, "px")
+
+```
+
+We use the total catch per diver, both Blacklip and Greenlip abalone. This is done as effort is recorded as time spent underwater, and no delineation is made to where the effort is used (Blacklip vs Greenlip). Over the quota years `r params$min_year` to `r params$max_year`, there were `r length(unique(divers[['Diver']]))` divers, fishing `r nreef` reefs. In total, there were `r nrow(divers)` recorded dives from log books.
+
+The figure below shows the seasonal variation over the given time period, within reef locations. The mean CPUE has been calculated as the geometric mean of catches.
+
+```{r seasonal-plot,fig.width=9,out.width="900px",fig.height=pl_size1,out.height=pl_size2}
+month_lookup <- data_frame(
+    Month = 1:12,
+    mon = ifelse((Month + 3) %% 12 == 0, 12, (Month + 3) %% 12),
+    mn = lubridate::month(mon, label = TRUE, abbr = FALSE)
+)
+divers_seasonal <- left_join(divers_seasonal, month_lookup)
+pl_seasonal <- ggplot(divers_seasonal,
+                      aes(x = fct_reorder(mn, Month), y = mean_cpue,
+                          group = QuotaYear, colour = QuotaYear)) +
+    geom_line() +
+    scale_colour_viridis_c() +
+    ylab("Mean CPUE") +
+    xlab("Month") +
+    facet_wrap(~ ReefCode, ncol = 3, scales = "free_y") +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+pl_seasonal
+
+```
+
+## Modelling
+
+A series of three models was fit to the data. Given the response variable (catch in kg) is positive, a Gamma regression was used. The shape parameter of the Gamma distribution was kept constant, whilst the rate parameter was modelled dependent on year, reef and diver effects. A Bayesian framework was used for modelling, with vague priors used. The three models are as follows:
+
+$$
+\begin{align}
+C_{trd} & \sim \text{Gamma}(\alpha, \beta_{trd}) \nonumber \\
+\beta_{trd} & = \mu + E_{trd} + \text{Year}_{t} + \text{Reef}_{r} + \text{Diver}_{d} \\
+\beta_{trd} & = \mu + E_{trd} + \text{Year}_{t} + \text{Reef}_{r} + \text{Diver}_{d} + \text{Year by Reef}_{tr} \\
+\beta_{trd} & = \mu + E_{trd} + \text{Year}_{t} + \text{Reef}_{r} + \text{Diver}_{d} + \text{Year by Reef}_{tr} + \text{Year by Diver}_{td}
+\end{align}
+$$
+where $C_{trd}$ and $E_{trd}$ are the total catch and effort recorded by diver $d$ on reef $r$ in year $t$. $\text{Year}_{t}$ is the effect of year $t$, $\text{Reef}_{r}$ the effect of reef $r$, and $\text{Diver}_{d}$ the effect of diver $d$, with similarly named interaction effects. For full details on the model setup and priors used, see the accompanying report `cpue-standardisation.pdf` produced by [interadata](https://www.interadata.io/) as part of this project.
+
+## Model Comparison
+
+Model comparison was made by comparing the leave one out information criterion, which is a Bayesian predictive criterion analogous to AIC (and can be understood similarly). The table below shows the LOOIC for each of the three models:
+
+```{r looic,results="asis"}
+smu_nm <- gsub(" ", "_", tolower(params$smu))
+looic <- readRDS(here("data", paste0(smu_nm, "_loo.rds")))
+options(knitr.kable.NA = '')
+knitr::kable(looic)
+
+```
+
+```{r best-model}
+best <- readRDS(here("data", paste0(smu_nm, "_best_model.rds")))
+best_model <- case_when(
+    best == "loo_year" ~ "Model 1",
+    best == "loo_year_reef" ~ "Model 2",
+    best == "loo_year_reef_diver" ~ "Model 3",
+    best == "loo_year_diver" ~ "Model 2"
+)
+
+```
+
+The best model was then based on the difference in LOOIC between models, with the difference needing to be larger than twice the standard error of the difference. Based on this, the best model for `r params$smu` is `r best_model`, and we will draw inference for the standardised CPUE from this model.
+
+## Standardised CPUE
+
+Standardised CPUE is estimated from the model by making predictions for catch, at an effort equal to 1. To standardise, we make predictions as if we had a new diver on a new reef, but fix the year in which we want predictions: this will have mean 0 for the diver and reef effect, but allow the uncertainty in these predictions to be estimated.
+
+```{r std-cpue}
+std_cpue <- readRDS(here("data", paste0(smu_nm, "_std_cpue", ".rds"))) %>%
+    filter(year == params$max_year)
+
+```
+
+The figure below shows the standardised CPUE per season (median prediction, shown as blue circles), along with 50% and 80% prediction intervals (shown as dark blue and light blue lines respectively). The observed geometric mean CPUE are shown as white circles. For the latest year (`r params$max_year`), the standardised CPUE is estimated to be `r std_cpue[['med']]` with 80% prediction interval (`r std_cpue[['ll1']]`, `r std_cpue[['ul1']]`).
+
+```{r std_cpue-fig,out.width="75%",fig.align="center"}
+knitr::include_graphics(here("figs", paste0(smu_nm, "_pl_cpue.png")))
+
+```
+
+## Model Diagnostics
+
+In this section, some model diagnostics from the MCMC simulations are reproduced. Due to the complexity of the models, only basic diagnostics are produced. Extra figures are output as part of the model fitting procedure, and may be found in the `figures` directory.
+
+```{r model-diags}
+diags <- readRDS(here("data", paste0(smu_nm, "_best_model_diags.rds")))
+
+```
+
+```{asis poor-divergences,echo=diags[['max_div']]}
+Model fitting for this SMU had some issues with divergent iterations. The CPUE predictions should be ok, but if they look wildly out of place, consider a simple mean CPUE standardisation.
+```
+
+```{asis good-divergences,echo=!diags[['max_div']]}
+There were no issues with divergent iterations in the MCMC simulation for this model.
+```
+
+```{asis poor-rhats,echo=diags[['max_rhats']]}
+Model fitting for this SMU had some issues with the number of iterations in the model. For this particular run, 8000 MCMC iterations were used, with 4000 as a burn-in. Consider running the model again manually with 16000 iterations.
+```
+
+```{asis good-rhats,echo=!diags[['max_rhats']]}
+The number of iterations in the MCMC simulation was sufficient for fitting this model.
+```
+
+The figures below all show traceplots for various parameters in the model. Each of these traceplots should show a 'scramble' of lines. If any of the plots show diverging traces, it is likely the model predictions will be suspect.
+
+The figure below is a traceplot of the shape parameter ($\alpha$) of the Gamma distribution.
+
+```{r pl-alpha}
+knitr::include_graphics(here("figs", paste0(smu_nm, "_pl_alpha.png")))
+
+```
+
+The figure below is a traceplot of the standard deviation of the modelled effect for the year of the catch.
+
+```{r pl-year}
+knitr::include_graphics(here("figs", paste0(smu_nm, "_pl_year.png")))
+
+```
+
+The figure below is a traceplot of the standard deviation of the modelled effect for the reef on which the catch was taken.
+
+```{r pl-reef}
+knitr::include_graphics(here("figs", paste0(smu_nm, "_pl_reef.png")))
+
+```
+
+The figure below is a traceplot of the standard deviation of the modelled effect for the diver that made the catch.
+
+```{r pl-diver}
+knitr::include_graphics(here("figs", paste0(smu_nm, "_pl_diver.png")))
+
+```
+
+<p>
+  <br><br><br>
+	This report template was produced for the Victorian Fisheries Authority by [interadata](https://www.interadata.io/).
+  <br><br>
+</p>

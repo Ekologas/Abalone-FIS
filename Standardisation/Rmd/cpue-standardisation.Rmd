@@ -1,0 +1,549 @@
+---
+title: CPUE Standardisation
+subtitle: Exploratory Data Analysis
+author:
+- Stephen E. Lane
+output:
+  html_document:
+    toc: yes
+    toc_depth: 2
+    theme: yeti
+    highlight: zenburn
+    fig_caption: true
+---
+
+<!-- Time-stamp: <2018-04-03 13:07:29 (slane)> -->
+
+```{r setup,echo=FALSE,warning=FALSE,message=FALSE,cache=FALSE,results="hide"}
+knitr::opts_chunk$set(cache = FALSE, error = FALSE, warning = FALSE,
+                      message = FALSE, echo = TRUE, width = 7,
+                      height = 14 / (1 + sqrt(5)), out.width = "900px",
+                      cache.path = "cpue_cache/")
+options(digits = 2)
+
+```
+
+# Introduction
+
+This document details preliminary investigation into the CPUE data. A final report will be prepared, which should be taken as authoritative. We firstly load libraries and data, removing invalid entries. We then calculate CPUE as the sum of Blacklip and Greenlip catches --- this is done as we only have one lot of effort data, meaning where both are caught we don't know proportionate effort.
+
+```{r libraries-data}
+library(dplyr)
+library(readxl)
+library(here)
+library(ggplot2)
+library(tidyr)
+library(forcats)
+divers <- read_excel(
+    here("data-raw", "RawCatchEffortUnfiltered_1979_2016_DiverPFN.xlsx")
+) %>%
+    filter(!is.na(Effort), Effort > 0) %>%
+    mutate(cpue = (Blacklip + Greenlip) / Effort)
+glimpse(divers)
+
+```
+
+Let's now create some lookup tables for Zones, SMU's, Reef Codes and Divers, as these may be required in modelling (where integer codes will be much more useful):
+
+```{r lookups}
+zone_lookup <- data_frame(
+    Zone = unique(divers$Zone),
+    Zone_ID = seq_len(length(Zone))
+)
+smu_lookup <- data_frame(
+    SMU = unique(divers$SMU),
+    SMU_ID = seq_len(length(SMU))
+)
+reef_lookup <- data_frame(
+    ReefCode = unique(divers$ReefCode),
+    Reef_ID = seq_len(length(ReefCode))
+)
+diver_lookup <- data_frame(
+    Diver = unique(divers$Diver),
+    Diver_ID = seq_len(length(Diver))
+)
+
+```
+
+Actually, these lookups may require editing when modelling happens, depending on what data is going to be used in the models.
+
+# Seasonality/Interaction Checks
+
+Let's look at seasonality, first within SMU as there's many SMU's with only one reef code labelled. First, need to work out months; the first month needs to be April, as that's the start of the quota year. Thus, April needs to be 1, and March 12.
+
+```{r check-seasonality,fig.height=18,fig.width=9,out.height="1800px",out.width="900px",fig.cap="Mean CPUE per month, over all quota years. Month 1 is the first month in the quota year (April)."}
+max_year <- max(divers$QuotaYear)
+divers_seasonal <- divers %>%
+    mutate(
+        Month = (lubridate::month(Date) - 3 + 12) %% 12,
+        Month = ifelse(Month == 0, 12, Month)
+    ) %>%
+    group_by(SMU, QuotaYear, Month) %>%
+    summarise(mean_cpue = mean(cpue)) %>%
+    mutate(
+        latest = ifelse(QuotaYear < max_year, "previous", "latest")
+    )
+cols <- c("previous" = "lightgrey", "latest" = "#F78536")
+pl_seasonal <- ggplot(divers_seasonal,
+                      aes(x = Month, y = mean_cpue, group = QuotaYear,
+                          colour = QuotaYear)) +
+    geom_line() +
+    scale_colour_viridis_c() +
+    facet_wrap(~ SMU, ncol = 3, scales = "free_y")
+pl_seasonal
+
+```
+
+The figure above shows that in general, CPUE is getting larger over time, however there does not appear to be a year by month interaction effect --- the variability within years is very similar across years.
+
+Now, what about reef code within SMU? There's only a limited range with multiple reef codes:
+
+```{r reef-codes}
+divers %>% select(SMU, ReefCode) %>% distinct() %>%
+    group_by(SMU) %>% summarise(reefs = n()) %>% arrange(desc(reefs))
+
+```
+
+Let's look at a couple. Portland and Phillip Island seem to be good candidates to look at:
+
+```{r reef-portland,fig.height=18,fig.width=9,out.height="1800px",out.width="900px",fig.cap="Portland Mean CPUE per month, over all quota years. Month 1 is the first month in the quota year (April)."}
+portland_seasonal <- divers %>%
+    filter(SMU == "Portland") %>%
+    mutate(
+        Month = (lubridate::month(Date) - 3 + 12) %% 12,
+        Month = ifelse(Month == 0, 12, Month),
+        Reef = as.factor(ReefCode)
+    ) %>%
+    group_by(Reef, QuotaYear, Month) %>%
+    summarise(mean_cpue = mean(cpue))
+pl_portland_seasonal <- ggplot(portland_seasonal,
+                               aes(x = Month, y = mean_cpue, group = QuotaYear,
+                                   colour = QuotaYear)) +
+    geom_line() +
+    scale_colour_viridis_c() +
+    facet_wrap(~ Reef, ncol = 3, scales = "free_y")
+pl_portland_seasonal
+
+```
+
+```{r reef-pi,fig.height=9,fig.width=9,out.height="900px",out.width="900px",fig.cap="Phillip Island Mean CPUE per month, over all quota years. Month 1 is the first month in the quota year (April)."}
+pi_seasonal <- divers %>%
+    filter(SMU == "PHILLIP ISLAND") %>%
+    mutate(
+        Month = (lubridate::month(Date) - 3 + 12) %% 12,
+        Month = ifelse(Month == 0, 12, Month),
+        Reef = as.factor(ReefCode)
+    ) %>%
+    group_by(Reef, QuotaYear, Month) %>%
+    summarise(mean_cpue = mean(cpue))
+pl_pi_seasonal <- ggplot(pi_seasonal,
+                         aes(x = Month, y = mean_cpue, group = QuotaYear,
+                             colour = QuotaYear)) +
+    geom_line() +
+    scale_colour_viridis_c() +
+    facet_wrap(~ Reef, ncol = 3, scales = "free_y")
+pl_pi_seasonal
+
+```
+
+There appears once again to be limited evidence for a year by month interaction. Indeed, I would even suggest that there is limited evidence for a month effect --- within each Reef Code, and each SMU (in the earlier figure), there really is no pattern within years; sometimes it's up, sometimes it's down.
+
+If month is going to enter into the model, it'll have to be as a factor variable, or as a non-parametric smooth.
+
+Now, need to figure out how to fit the model. Do I use all SMU's in a big model, or go for models within SMU? Let's have a look at when SMU's have been fished:
+
+```{r smu-fished,out.height="900px",out.width="600px",fig.cap="Missingness in SMU's"}
+fished <- divers %>%
+    select(SMU, QuotaYear) %>%
+    distinct() %>%
+    mutate(included = 1) %>%
+    complete(SMU, QuotaYear, fill = list(included = 0)) %>%
+    filter(QuotaYear >= 2000)
+counts <- fished %>%
+    group_by(SMU) %>% summarise(count = sum(included))
+fished <- left_join(fished, counts, by = "SMU")
+pl_fished <- ggplot(fished, aes(x = QuotaYear,
+                                y = fct_reorder(SMU, count),
+                                colour = factor(included))) +
+    geom_point() +
+    scale_colour_manual(values = c("red", "black"))
+pl_fished
+
+```
+
+The SMU's at the bottom of the figure above have many years without being fished, which complicates the modelling aspect. Spit out which have been fished over recent history (i.e. those with 'black' on the right hand side of the figure):
+
+```{r smu-fished-recently}
+smu_fished <- fished %>%
+    filter(count > 5) %>%
+    select(SMU) %>%
+    distinct() %>%
+    unlist()
+smu_fished
+
+```
+
+# Modelling
+
+First steps are probably to create a model that can be run _within_ an SMU for a given year. Month is not important for this model --- the model will be used to adjust CPUE for a given SMU, **on average**. Thus, monthly catch/effort data are meaningless, and we should just sum these. OR we can model these individually, but not included month terms for them. We then need to add reef and diver adjustments. To calculate standardised CPUE, we would then predict/draw for a _new_ diver and _new_ reef within the SMU.
+
+## Aggregated Model
+
+Let's try out a model. We'll use the aggregated version to start with. First, we read in the function to create the Stan data, and create it for Portland, 2016:
+
+```{r portland-stan-data}
+source(here("R", "create-stan-data.R"))
+portland_stan <- smu_year_model(divers, "Portland", 2016)
+
+```
+
+Next we bring in the Stan model, and set number of cores:
+
+```{r stan-model-1}
+library(rstan)
+options(mc.cores = parallel::detectCores() - 2)
+model <- stan_model(here("stan", "fixed-smu-year.stan"))
+
+```
+
+Finally we fit the model to the Portland data, and monitor some key parameters:
+
+```{r fit-portland,cache=TRUE}
+samps <- sampling(model, data = portland_stan, iter = 5000, chains = 4,
+                  control = list(adapt_delta = 0.97))
+
+```
+
+```{r samps-out}
+print(samps, digits = 1, pars = c("intercept", "alpha", "sigma_reef",
+                                  "sigma_diver", "new_cpue"))
+new_cpue <- extract(samps, par = "new_cpue")$new_cpue
+quantile(new_cpue, c(0.1, 0.5, 0.9))
+print(samps, digits = 1, pars = c("diver_cpue"))
+portland_stan[c("reef", "diver", "volume", "effort")] %>% as_data_frame() %>%
+    mutate(cpue = volume / effort) %>% group_by(diver) %>%
+    summarise(mean_cpue = mean(cpue), median_cpue = median(cpue),
+              geomean_cpue = exp(mean(log(cpue))))
+
+```
+
+Check out the mixing of some parameters:
+
+```{r mixing}
+traceplot(samps, pars = c("intercept", "alpha", "sigma_reef", "sigma_diver"))
+
+```
+
+## Individual Model
+
+No we'll use the individual version of the model. First, we read in the function to create the Stan data, and create it for Portland, 2016:
+
+```{r portland-stan-data-ind}
+portland_stan_ind <- smu_year_model_ind(divers, "Portland", 2016)
+
+```
+
+We can of course, use the previous Stan model. Finally we fit the model to the Portland data, and monitor some key parameters:
+
+```{r fit-portland-ind,cache=TRUE}
+samps_ind <- sampling(model, data = portland_stan_ind, iter = 5000, chains = 4,
+                      control = list(adapt_delta = 0.97))
+
+```
+
+```{r samps-out-ind}
+print(samps_ind, digits = 1, pars = c("intercept", "alpha", "sigma_reef",
+                                      "sigma_diver", "new_cpue"))
+new_cpue_ind <- extract(samps_ind, par = "new_cpue")$new_cpue
+quantile(new_cpue_ind, c(0.1, 0.5, 0.9))
+print(samps_ind, digits = 1, pars = c("diver_cpue"))
+portland_stan[c("reef", "diver", "volume", "effort")] %>% as_data_frame() %>%
+    mutate(cpue = volume / effort) %>% group_by(diver) %>%
+    summarise(mean_cpue = mean(cpue), median_cpue = median(cpue),
+              geomean_cpue = exp(mean(log(cpue))))
+
+```
+
+Check out the mixing of some parameters:
+
+```{r mixing-ind}
+traceplot(samps_ind, pars = c("intercept", "alpha", "sigma_reef", "sigma_diver"))
+
+```
+
+Really all that adding in the individual data points does is add extra variability to the modelling, that is not required at the end of the day.
+
+## Adding in yearly data
+
+So, I really think that modelling within SMU's is the way to go, and I'm not entirely convinced by Reef Code differences. If I'm going within SMU, and looking at building in Quota Year, let's have a look at the CPUE by year by reef code relationship, here, looking at Portland:
+
+```{r check-seasonal-smu,fig.cap="Mean CPUE per year."}
+divers_portland <- divers %>%
+    filter(SMU == "Portland") %>%
+    mutate(Reef = as.factor(ReefCode)) %>%
+    group_by(SMU, QuotaYear, Reef) %>%
+    summarise(mean_cpue = exp(mean(log(cpue))))
+pl_seasonal_portland <- ggplot(divers_portland,
+                               aes(x = QuotaYear, y = mean_cpue,
+                                   group = Reef,
+                                   colour = Reef)) +
+    geom_line()
+pl_seasonal_portland
+
+```
+
+So, there'd definitely have to be a year by reef code interaction, which I think is really unhelpful in this case (although, check out `PHILLIP ISLAND` --- it actually has a really nice 'smooth'). Again, the idea is not to fit all the data, the idea is to essentially 'smooth' out the current year. Anyhoo, let's give it a shot. I will of course need to produce a different data set for Stan this time, which again is in the same script as previously.
+
+Let's have a look at which divers fish which reef codes:
+
+```{r diver-reefcodes,fig.height=9,fig.width=9,out.height="900px",out.width="900px",fig.cap="Which divers fish on which reefs."}
+port <- divers %>%
+    filter(SMU == "Portland")
+reef_lookup <- data_frame(
+    ReefCode = unique(port$ReefCode),
+    Reef_ID = seq_len(length(ReefCode))
+)
+diver_lookup <- data_frame(
+    Diver = unique(port$Diver),
+    Diver_ID = seq_len(length(Diver))
+)
+port <- port %>%
+    left_join(., reef_lookup, by = "ReefCode") %>%
+    left_join(., diver_lookup, by = "Diver")
+fished <- port %>%
+    select(Reef_ID, Diver_ID) %>%
+    distinct() %>%
+    mutate(included = 1) %>%
+    complete(Reef_ID, Diver_ID, fill = list(included = 0))
+counts <- fished %>%
+    group_by(Reef_ID) %>% summarise(count = sum(included))
+fished <- left_join(fished, counts, by = "Reef_ID") %>%
+    mutate(reef = as.factor(Reef_ID))
+pl_fished <- ggplot(fished, aes(x = Diver_ID,
+                                y = fct_reorder(reef, count),
+                                colour = factor(included))) +
+    geom_point() +
+    scale_colour_manual(values = c("red", "black"))
+pl_fished
+
+```
+
+So there's a mixed bag. We'll use the aggregated (within year) version to start with. First, we read in the function to create the Stan data, and create it for Portland, with years restricted to 2000 and above, and predictions made for 2016:
+
+```{r portland-stan-data-all}
+portland_stan_all <- smu_model(
+    divers,
+    smu = "Portland",
+    year_cutoff = 2000
+)
+
+```
+
+Next we bring in the Stan model, and set number of cores:
+
+```{r stan-model-smu-year}
+model_smu_year <- stan_model(here("stan", "smu-year.stan"))
+
+```
+
+Finally we fit the model to the Portland data, and monitor some key parameters:
+
+```{r fit-portland-smu-year,cache=TRUE}
+samps_smu_year <- sampling(
+    model_smu_year, data = portland_stan_all, iter = 5000, chains = 4,
+    control = list(adapt_delta = 0.97)
+)
+
+```
+
+```{r samps-out-smu-year}
+print(samps_smu_year, digits = 1,
+      pars = c("intercept", "alpha", "sigma_reef", "sigma_diver", "sigma_year",
+               "new_cpue"))
+new_cpue_smu_year <- extract(samps_smu_year, par = "new_cpue")$new_cpue
+quantile(new_cpue_smu_year, c(0.1, 0.5, 0.9))
+portland_stan_all[c("year", "reef", "diver", "volume", "effort")] %>%
+    as_data_frame() %>%
+    filter(year == 17) %>%
+    mutate(cpue = volume / effort) %>% group_by(diver) %>%
+    summarise(mean_cpue = mean(cpue), median_cpue = median(cpue),
+              geomean_cpue = exp(mean(log(cpue))), records = n())
+ids <- paste0("diver_cpue[", c(11, 12, 31, 32, 33), ",1]")
+print(samps_smu_year, digits = 1, pars = ids)
+
+```
+
+Check out the mixing of some parameters:
+
+```{r mixing-smu-year}
+traceplot(samps_smu_year,
+          pars = c("intercept", "alpha", "sigma_reef", "sigma_diver",
+                   "sigma_year"))
+
+```
+
+OK, check out the yearly parameters:
+
+```{r year-pars,fig.cap="Yearly coefficients"}
+years <- extract(samps_smu_year, "year_effect")$year_effect
+years <- years %>%
+    as_data_frame() %>%
+    gather(param, value) %>%
+    mutate(year = as.integer(gsub("V", "", param)) + 1999) %>%
+    group_by(year) %>%
+    summarise_at(vars(value),
+                 funs(ll1 = quantile(., probs = 0.1),
+                      ll2 = quantile(., probs = 0.25),
+                      med = quantile(., probs = 0.5),
+                      ul2 = quantile(., probs = 0.75),
+                      ul1 = quantile(., probs = 0.9)))
+br <- unique(years$year)
+br <- br[seq(1, length(br), by = 2)]
+pl_years <- ggplot(years, aes(x = year, xend = year, group = year)) +
+    geom_segment(aes(y = ll1, yend = ul1),
+                 colour = "lightgreen", lineend = "round") +
+    geom_segment(aes(y = ll2, yend = ul2),
+                 colour = "darkgreen", lineend = "round", size = 1.5) +
+    geom_point(aes(y = med), colour = "darkgreen",
+               fill = "lightgreen", size = 2.5, shape = 21) +
+    ylab("Year coefficient") +
+    xlab("Quota year") +
+    scale_x_discrete(breaks = br) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+pl_years
+
+```
+
+## Now we extend to year by reef effects
+
+We want to be able to reefs to have different effects in different years, e.g. due to depletion, other seasonal effects etc. So let's run with this now. We can use the same data that's already created, it's just the model that changes.
+
+Next we bring in the Stan model, and set number of cores:
+
+```{r stan-model-smu-year-reef}
+model_smu_year_reef <- stan_model(here("stan", "smu-year-reef.stan"))
+
+```
+
+Finally we fit the model to the Portland data, and monitor some key parameters:
+
+```{r fit-portland-smu-year-reef,cache=TRUE}
+samps_smu_year_reef <- sampling(
+    model_smu_year_reef, data = portland_stan_all, iter = 5000, chains = 4,
+    control = list(adapt_delta = 0.97)
+)
+
+```
+
+```{r samps-out-smu-year-reef}
+print(samps_smu_year_reef, digits = 1,
+      pars = c("intercept", "alpha", "sigma_reef", "sigma_diver", "sigma_year",
+               "sigma_year_reef", "new_cpue"))
+new_cpue_smu_year_reef <- extract(samps_smu_year_reef,
+                                  par = "new_cpue")$new_cpue
+quantile(new_cpue_smu_year_reef, c(0.1, 0.5, 0.9))
+portland_stan_all[c("year", "reef", "diver", "volume", "effort")] %>%
+    as_data_frame() %>%
+    filter(year == 17) %>%
+    mutate(cpue = volume / effort) %>% group_by(diver) %>%
+    summarise(mean_cpue = mean(cpue), median_cpue = median(cpue),
+              geomean_cpue = exp(mean(log(cpue))), records = n())
+ids <- paste0("diver_cpue[", c(11, 12, 31, 32, 33), ",1]")
+print(samps_smu_year_reef, digits = 1, pars = ids)
+
+```
+
+Check out the mixing of some parameters:
+
+```{r mixing-smu-year-reef-1}
+traceplot(samps_smu_year_reef,
+          pars = c("intercept", "alpha", "sigma_reef", "sigma_diver",
+                   "sigma_year"))
+
+```
+
+```{r mixing-smu-year-reef-2,fig.cap="mixing",fig.height=18,fig.width=9,out.width="900px",out.height="1800px"}
+traceplot(samps_smu_year_reef,
+          pars = c("sigma_year_reef"))
+
+```
+
+Plotting the interaction terms is going to be really tricky...
+
+## Finally extend to year by diver effects
+
+We want to be able to have divers to have different effects in different years, e.g. due to experience. So let's run with this now. We can use the same data that's already created, it's just the model that changes.
+
+Next we bring in the Stan model, and set number of cores:
+
+```{r stan-model-smu-year-reef-diver}
+model_smu_year_reef_diver <- stan_model(here("stan",
+                                             "smu-year-reef-diver.stan"))
+
+```
+
+Finally we fit the model to the Portland data, and monitor some key parameters:
+
+```{r fit-portland-smu-year-reef-diver,cache=TRUE}
+samps_smu_year_reef_diver <- sampling(
+    model_smu_year_reef_diver , data = portland_stan_all, iter = 5000,
+    chains = 4, control = list(adapt_delta = 0.97)
+)
+
+```
+
+```{r samps-out-smu-year-reef-diver}
+print(samps_smu_year_reef_diver, digits = 1,
+      pars = c("intercept", "alpha", "sigma_reef", "sigma_diver", "sigma_year",
+               "sigma_year_reef", "sigma_year_diver", "new_cpue"))
+new_cpue_smu_year_reef_diver <- extract(samps_smu_year_reef_diver,
+                                        par = "new_cpue")$new_cpue
+quantile(new_cpue_smu_year_reef_diver, c(0.1, 0.5, 0.9))
+
+```
+
+Check out the mixing of some parameters:
+
+```{r mixing-smu-year-reef-diver-1}
+traceplot(samps_smu_year_reef_diver,
+          pars = c("intercept", "alpha", "sigma_reef", "sigma_diver",
+                   "sigma_year"))
+
+```
+
+```{r mixing-smu-year-reef-diver-2,fig.cap="mixing",fig.height=18,fig.width=9,out.width="900px",out.height="1800px"}
+traceplot(samps_smu_year_reef_diver,
+          pars = c("sigma_year_reef"))
+
+```
+
+```{r mixing-smu-year-reef-diver-3,fig.cap="mixing",fig.height=18,fig.width=9,out.width="900px",out.height="1800px"}
+traceplot(samps_smu_year_reef_diver,
+          pars = c("sigma_year_diver"))
+
+```
+
+OK, all good. Each these models is up and running just fine. Now I need to figure out a framework for fitting the models to each SMU, and outputting associated figures and statistics. Probably the best way again will be to set up a parameterised report that acts upon the _output_ from each model. I should set up a driver script to fit each of the models and save the output, which can be processed. The driver script will take care of when SMU's have only one reef or diver etc.
+
+Look at the SMU figure above - certain SMU's are not being fished anymore. We'll set off the script only on those that a being fished (most recently).
+
+So, the driver script will take an SMU and:
+
+- fit each appropriate model:
+  - year, reef and diver effects
+  - as above, plus year by reef
+  - as above, plus year by diver
+- it will then compare each model using LOO
+  - so I need to rewrite my models to spit out the log-likelihood
+  - using LOO, it will select the best model
+  - from the best model, it will extract predictions for CPUE each year
+  - it will then plot these (and intervals) over the top of the 'observed' geometric mean CPUE
+  - it will then plot (possibly as an 'addendum') some diagnostic figures, possibly:
+    - traceplots of key parameters
+	- posterior predictive checks?
+
+<p>
+  <br><br><br>
+  All views presented within are the author's only, and do not necessarily represent the views of CEBRA.
+  <br><br>
+</p>
