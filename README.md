@@ -10,3 +10,5 @@ The precise co-ordinates and characteristics of each fixed site are fully descri
 At the end of each transect 25 abalone are collected as far as possible without bias and brought aboard the boat where their shell lengths are measured to the nearest millimetre using an electronic measuring board which automatically logs the lengths along with date, time and GPS coordinates. As far as practicable, two research divers equally share the survey at each site to enable statistical comparison of diver performance.
 These data are manually entered into MS Excel spreadsheets by VFA staff and checked in accordance with a SOP before transmission to the database manager for uploading.
 [Abalone Methods Report No.9 - 2019.pdf](https://github.com/Ekologas/Abalone-FIS/files/9485238/Abalone.Methods.Report.No.9.-.2019.pdf)
+
+Cite the code <a href="https://zenodo.org/badge/latestdoi/532603896"><img src="https://zenodo.org/badge/532603896.svg" alt="DOI"></a>
