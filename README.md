@@ -16,3 +16,5 @@ At the end of each transect 25 abalone are collected as far as possible without 
 
 These data are manually entered into MS Excel spreadsheets by VFA staff and checked in accordance with a SOP before transmission to the database manager for uploading.
 [Abalone Methods Report No.9 - 2019.pdf](https://github.com/Ekologas/Abalone-FIS/files/9485238/Abalone.Methods.Report.No.9.-.2019.pdf)
+
+Cite: https://zenodo.org/badge/latestdoi/532603896
